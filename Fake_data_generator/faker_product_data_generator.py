@@ -17,7 +17,7 @@ category_products = {
 product_ids = {}
 id_counter = {}
 
-with open('product_data2.csv', 'w', newline='') as csvfile:
+with open('product_data.csv', 'w', newline='') as csvfile:
     fieldnames = ['Product ID', 'Product Name', 'Category', 'Unit Price', 'Available Stock', 'Expiry Date']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
